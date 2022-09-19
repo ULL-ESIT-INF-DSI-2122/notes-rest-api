@@ -1,5 +1,7 @@
 # Example of Express application
 
+[![Tests](https://github.com/ULL-ESIT-INF-DSI-2122/notes-rest-api/actions/workflows/tests.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2122/notes-rest-api/actions/workflows/tests.yml)
+
 [![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2122/notes-rest-api/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2122/notes-rest-api?branch=main)
 
 This repository contains a project that illustrates the creation of a simple Express application
