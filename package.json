@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "heroku-postbuild": "tsc",
     "dev": "tsc-watch --onSuccess \"env-cmd -f ./config/dev.env node dist/index.js\"",
     "start": "node dist/index.js",
     "test": "env-cmd -f ./config/test.env mocha --exit",
     "coverage": "nyc npm run test && nyc report --reporter=lcov"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "keywords": [],
   "author": "",
